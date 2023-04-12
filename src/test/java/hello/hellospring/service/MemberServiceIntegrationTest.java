@@ -13,7 +13,6 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 @SpringBootTest
 @Transactional
 class MemberServiceIntegrationTest {
-    // JdbcMemberRepository 메서드 구현 안해놔서 동작은 안함 - 에러 발생
 
     @Autowired MemberService memberService;
     @Autowired
